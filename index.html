@@ -34,22 +34,26 @@
 					<tr>
 						<td>First name</td>
 						<td id="first-name">Column content</td>
-						<td><button type="submit" class="btn btn-xs btn-primary" data-toggle="modal" data-target="#editFirstName">edit</button></td>
+						<td><button type="submit" class="btn btn-xs btn-primary" 
+						data-toggle="modal" data-target="#editFirstName">edit</button></td>
 					</tr>
 					<tr>
 						<td>Last name</td>
 						<td id="last-name">Column content</td>
-						<td><button type="submit" class="btn btn-xs btn-primary">edit</button></td>
+						<td><button type="submit" class="btn btn-xs btn-primary"
+						data-toggle ="modal" data-target="#editLastName">edit</button></td>
 					</tr>
 					<tr>
 						<td>Email</td>
 						<td id="email">Column content</td>
-						<td><button type="submit" class="btn btn-xs btn-primary">edit</button></td>
+						<td><button type="submit" class="btn btn-xs btn-primary"
+							data-toggle ="modal" data-target="#editEmail">edit</button></td>
 					</tr>
 					<tr>
 						<td>Change password</td>
 						<td id="password">Column content</td>
-						<td><button type="submit" class="btn btn-xs btn-primary">edit</button></td>
+						<td><button type="submit" class="btn btn-xs btn-primary" 
+						data-toggle ="modal" data-target="#changePassword">edit</button></td>
 					</tr>
 			</table>
 		</div>
@@ -149,13 +153,11 @@
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 					<button type="button" class="btn btn-primary" id="savePassword"
-					onclick="savePassword()">Save changes</button>
+					onclick="savePassword()" data-dismiss="modal">Save changes</button>
 				</div>
 			</div>
 		</div>
 	</div>
-
-
 
 </body>
 

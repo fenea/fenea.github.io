@@ -1,5 +1,5 @@
 function foo(){
-var username = "hotsexykiki69";
+    var username = "hotsexykiki69";
 	var first_name = "john";
 	var last_name = 'smith';
 	var email = 'hello@email.com';
@@ -11,5 +11,6 @@ var username = "hotsexykiki69";
 	document.getElementById('password').innerHTML = password;
 }
 function editUsername(){
-	username = document.getElementById('usernameTextbox').value;
+	username = "other name";
+
 }
