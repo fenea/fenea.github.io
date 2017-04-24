@@ -11,27 +11,23 @@ div.avatar {
 
 .wrapper div {
     background-color: white;
-   min-height: 200px;
    padding: 10px;
+   position: relative;
+bottom: 0px;
 }
 #one {
   float:left; 
-  margin-right:20px;
-  width:140px;
+ 
 }
 #two { 
   background-color: white;
   overflow:hidden;
-  margin:10px;
-  min-height:170px;
+ 
 }
 
 @media screen and (max-width: 400px) {
    #one { 
     float: none;
-    margin-right:0;
-    width:auto;
-    border:0;
-    border-bottom:2px solid #000;    
+    border:0;    
   }
 }
