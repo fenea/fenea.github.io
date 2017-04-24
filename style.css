@@ -12,9 +12,14 @@ div.avatar {
 .wrapper div {
     background-color: white;
    padding: 10px;
-   position: relative;
-bottom: 0px;
 }
+
+#containerDiv{
+     margin-top: 40px;
+     background-color: white;
+
+}
+
 #one {
   float:left; 
  
