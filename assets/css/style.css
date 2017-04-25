@@ -1,0 +1,206 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.clear{
+  clear: both;
+}
+.modal-backdrop.in{
+  display: none !important;
+}
+#container-myaccount{
+    margin-top: 40px;
+    background-color: white;
+    width: 100%;
+    display: none;
+}
+
+#one {
+  float:left; 
+ 
+}
+#one img{
+  position: relative;
+}
+#two { 
+  background-color: white;
+  overflow:hidden;
+ 
+}
+
+#articles{
+  overflow: auto;
+  height: 100%;
+}
+.modal-body input{
+  float: left;
+}
+.modal-body input:hover{
+  background-color: transparent;
+}
+
+@media screen and (max-width: 400px) {
+   #one { 
+    float: none;
+    border:0;    
+  }
+}
+
+
+
+
+#container-myaccount{
+
+}
+
+#one{
+  padding: 10px 20px 0 20px;
+  text-align: center;
+}
+#one .profile-img{
+  width: 70%;
+}
+#one #name{
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.account-information{
+  margin: 10px;
+}
+
+#two .user-info-title{
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+#two .table tr td{
+  border: none !important;
+  font-size: 16px;
+}
+#two .table tr td:first-child{
+    font-weight: 600;
+}
+#container-myaccount-resp{
+  display: none;
+}
+.modal.fade.in{
+  background-color: rgba(0,0,0,0.5);
+}
+/**************************************/
+/**************************************/
+/***************RESPONSIVE*************/
+/**************************************/
+/**************************************/
+
+@media (min-width: 1000px) {
+  #container-myaccount-resp{
+    display: none !important;
+  }
+}
+
+@media (max-width: 999px) and (min-width: 0px){
+  #container-myaccount-resp{
+    display: none;
+  }
+  #one .profile-img{
+    width: 30%;
+  }
+}
+
+
+@media (max-width: 991px) and (min-width: 480px){
+  #one, #two{
+    float: none;
+  }
+  #two{
+    margin: 30px 0;
+  }
+  #two .table tr td{
+    border: none !important;
+  }
+  #two .table tr td:last-child{
+    text-align: center;
+  }
+  #two .user-info-title{
+    margin-bottom: 22px;
+  }
+  #two .table .change-button{
+    padding: 3px 17px;
+    border-radius: 4px;
+  }
+  #container-myaccount{
+    margin: 40px auto;
+  }
+  #one #name{
+    font-size: 26px;
+  }
+  #rwo .table .btn{
+    display: none;
+  }
+  
+
+}
+
+@media (max-width: 480px) and (min-width: 340px){
+  #two .table tr td{
+    font-size: 14px;
+  }
+  #two .table .change-button{
+    padding: 2px 14px;
+    border-radius: 3px;
+  }
+}
+@media (max-width: 340px) and (min-width: 0px){
+  #two .table tr td{
+    font-size: 12px;
+  }
+}

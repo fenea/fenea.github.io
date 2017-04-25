@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title> Here goes user's username </title>
+    
+    <!-- fenea begin -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/index.js"></script>
+    <!-- fenea end -->
+
+    <link rel="stylesheet" type="text/css" href="head_nav.css">
+    <link rel="stylesheet" type="text/css" href="fav_places.css">
+
+    
+
+</head>
+ <header>
+        <p class="username">Hi, Bogdan</p>
+        <a href="#"><img src="images/logo.png" alt="UR Web application logo"></a>
+    </header>
+    <p class="username"><a>Hi, Bogdan</a></p>
+<body>
+    <nav id="menu">
+        <ul>
+            <li><a class="profile-button" href="#">My Profile</a></li>
+            <li><a id="current">Favourite places</a></li>
+            <li><a href="#">Favourite things</a></li>
+            <li><a href="#">Sign out</a></li>
+        </ul>
+    </nav>
+    <div id="places">
+        
+            <article>
+                <input type="image" src="images/remove.png" width="15" height="15">
+                <h4>Place title</h4>
+                <p>date: 02.02.2017 </p>
+            </article>
+            <article>
+                <input type="image" src="images/remove.png" width="15" height="15">
+                <h4>Place title</h4>
+                <p>date: 02.02.2017 </p>
+            </article>
+            <article>
+                <input type="image" src="images/remove.png" width="15" height="15">
+                <h4>Place title</h4>
+                <p>date: 02.02.2017 </p>
+            </article>
+            <article>
+                <input type="image" src="images/remove.png" width="15" height="15">
+                <h4>Place title</h4>
+                <p>date: 02.02.2017 </p>
+            </article>
+            <article>
+                <input type="image" src="images/remove.png" width="15" height="15">
+                <h4>Place title</h4>
+                <p>date: 02.02.2017 </p>
+            </article>
+            <article>
+                <input type="image" src="images/remove.png" width="15" height="15">
+                <h4>Place title</h4>
+                <p>date: 02.02.2017 </p>
+            </article>
+            <article>
+                <input type="image" src="images/remove.png" width="15" height="15">
+                <h4>Place title</h4>
+                <p>date: 02.02.2017 </p>
+            </article>
+            <article>
+                <input type="image" src="images/remove.png" width="15" height="15">
+                <h4>Place title</h4>
+                <p>date: 02.02.2017 </p>
+            </article>
+    </div>
+
+    <div class="container"  class=""  id = "container-myaccount-resp" >
+        <div class="row">
+            <div id="one" class="col-md-4">
+                <img src="assets/images/avatar.jpg" class="img-circle profile-img" alt="imagine avatar">
+                <div class="account-information">
+                    <p id="name"></p>
+                </div>
+            </div>
+            <div id ="two" class="col-md-8">
+                <div class="">
+                    <h2 class="user-info-title">User Informations</h2>
+                    <table class="table table-striped table-hover">
+                        <tbody>
+            
+                        <tr>
+                            <td>First name</td>
+                            <td class="first-name">Column content</td>
+                            <td><button type="submit" class="btn btn-s btn-primary change-button" 
+                            data-toggle="modal" data-target="#editFirstName">edit</button></td>
+                        </tr>
+                        <tr>
+                            <td>Last name</td>
+                            <td class="last-name">Column content</td>
+                            <td><button type="submit" class="btn btn-s btn-primary change-button"
+                            data-toggle ="modal" data-target="#editLastName">edit</button></td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td class="email">Column content</td>
+                            <td><button type="submit" class="btn btn-s btn-primary change-button"
+                            data-toggle ="modal" data-target="#editEmail">edit</button></td>
+                        </tr>
+                        <tr>
+                            <td>Change password</td>
+                            <td class="passw">Column content</td>
+                            <td><button type="submit" class="btn btn-s btn-primary change-button" 
+                            data-toggle ="modal" data-target="#changePassword">edit</button></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cbody">
+
+        <div class="leftMenu">
+            <button id="first">My Profile</button>
+            <button id="btn">Firends</button>
+            <button id="btn">Favourite Place</button>
+            <button id="btn">Favourite Things</button>
+            <button id="btn">Favourite Sign Out</button>
+        </div>
+
+        <div class="rightMenu">
+
+            <!-- fenea begin -->
+            <div class="container"  class=""  id = "container-myaccount" >
+                <div class="row">
+                    <div id="one" class="col-md-4">
+                        <img src="assets/images/avatar.jpg" class="img-circle profile-img" alt="Imagine avatar">
+                        <div class="account-information">
+                            <p class="name"></p>
+                        </div>
+                    </div>
+                    <div id ="two" class="col-md-8">
+                        <div class="">
+                            <h2 class="user-info-title">User Informations</h2>
+                            <table class="table table-striped table-hover">
+                                <tbody>
+        
+                                <tr>
+                                    <td>First name</td>
+                                    <td class="first-name">Column content</td>
+                                    <td><button type="submit" class="btn btn-s btn-primary change-button" 
+                                    data-toggle="modal" data-target="#editFirstName">edit</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Last name</td>
+                                    <td class="last-name">Column content</td>
+                                    <td><button type="submit" class="btn btn-s btn-primary change-button"
+                                    data-toggle ="modal" data-target="#editLastName">edit</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Email</td>
+                                    <td class="email">Column content</td>
+                                    <td><button type="submit" class="btn btn-s btn-primary change-button"
+                                    data-toggle ="modal" data-target="#editEmail">edit</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Change password</td>
+                                    <td class="passw">Column content</td>
+                                    <td><button type="submit" class="btn btn-s btn-primary change-button" 
+                                    data-toggle ="modal" data-target="#changePassword">edit</button></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                
+            </div>
+            <script>
+                $(document).ready(function(){
+                    $("#first").on("click",function(){
+                        $("#container-myaccount").show();
+                        $("#articles").hide();
+                        initialize();
+                    });
+                    $(".profile-button").on("click",function(){
+                        $("#container-myaccount-resp").show();
+                        $("#places").hide();
+                        initialize();
+                    });
+                    
+                });
+            </script>
+            <!-- fenea end -->
+
+            <div id="articles">
+                <article>
+                    <input type="image" src="images/remove.png" width="15" height="15">
+                    <h4>Place title</h4>
+                    <p>date: 02.02.2017 </p>
+                </article>
+                <article>
+                    <input type="image" src="images/remove.png" width="15" height="15">
+                    <h4>Place title</h4>
+                    <p>date: 02.02.2017 </p>
+                </article>
+                <article>
+                    <input type="image" src="images/remove.png" width="15" height="15">
+                    <h4>Place title</h4>
+                    <p>date: 02.02.2017 </p>
+                </article>
+                <article>
+                    <input type="image" src="images/remove.png" width="15" height="15">
+                    <h4>Place title</h4>
+                    <p>date: 02.02.2017 </p>
+                </article>
+                <article>
+                    <input type="image" src="images/remove.png" width="15" height="15">
+                    <h4>Place title</h4>
+                    <p>date: 02.02.2017 </p>
+                </article>
+                 <article>
+                    <input type="image" src="images/remove.png" width="15" height="15">
+                    <h4>Place title</h4>
+                    <p>date: 02.02.2017 </p>
+                </article>
+                 <article>
+                    <input type="image" src="images/remove.png" width="15" height="15">
+                    <h4>Place title</h4>
+                    <p>date: 02.02.2017 </p>
+                </article>
+                 <article>
+                    <input type="image" src="images/remove.png" width="15" height="15">
+                    <h4>Place title</h4>
+                    <p>date: 02.02.2017 </p>
+                </article>
+            </div>
+        </div>
+    </div>
+
+ <!--fenea modals-->
+                <div class="modal fade" id="editFirstName" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title">Edit first name</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p><input type="text" placeholder="Enter first name..." /></p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary change-button" id="saveFirstName"
+                                onclick="editFirstName()">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="editLastName" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title">Edit last name</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p><input type="text" placeholder="Enter a new Last name..." /></p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary change-button" id="saveLastName"
+                                onclick="editLastName()">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="editEmail" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title">Edit Email</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p><input type="text" placeholder="Enter a new username..." /></p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary change-button" id="saveEmail"
+                                onclick="editEmail()">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="changePassword" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title">Change password</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p><input type="text" placeholder="Enter old password..." /></p> <br/>
+                                <p><input type="text" placeholder="Enter a new password..." /></p> <br/>
+                                <p><input type="text" placeholder="Confirm password..." /></p> 
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary change-button" id="savePassword"
+                                onclick="savePassword()" data-dismiss="modal">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--fenea modals end-->
+</body>
+<script>
+    initialize();
+</script>
+
+</html>
